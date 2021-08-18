@@ -1,0 +1,62 @@
+body{
+    margin-left: 8rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQf79LjoTNWiguTr-9GrbubN94lC8JQbedvRA&usqp=CAU);
+    no-repeat center center fixed;
+   background-size: cover;
+}
+h1{
+    font-style: italic;
+    background: yellow;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.text{
+    color: rgb(4, 20, 253);
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+span{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 50px;
+    animation: mover 6s linear infinite;
+}
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+    50%{
+        text-shadow: 0 0 30px rgba(0,0,0,0.5);
+        transform: translateY(30px);
+    }
+    100%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+}
+ span:nth-child(1){
+    animation-delay: 0.5s;
+}
+ span:nth-child(2){
+    animation-delay: 1s;
+}
+ span:nth-child(3){
+    animation-delay: 1.5s;
+}
+ span:nth-child(4){
+    animation-delay:2s;
+}
+button{
+    margin-top: 2rem;
+    margin-left: 30rem;
+    padding: 10px;
+    background-color:rgb(4, 203, 253);
+}
+button:hover{
+    background: rgb(216, 216, 213);
+}
+button a{
+    text-decoration:none;
+    color:  rgb(5, 5, 5);
+   font-weight: bolder;
+}

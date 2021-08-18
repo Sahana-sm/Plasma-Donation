@@ -1,0 +1,39 @@
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTMl8Qx4ByEIgnpzVHaYzqNaTPa2zzukyBcPA&usqp=CAU);
+    no-repeat center center fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    width: 30%;
+    background: rgba(252, 249, 249, 0.5);
+    margin-left: 31rem;
+}
+form{
+    background: rgba(250, 158, 72, 0.5);
+    width: 40%;
+   margin-left:25rem;
+   padding: 2rem;
+}
+button{
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: red;
+    margin-bottom: 2rem;
+}
+ .b1{
+    margin-left: 30rem;
+}
+.b2{
+    margin-left: 48rem;
+    margin-top: -6.4rem;
+}
+
+button:hover{
+    background: rgb(216, 216, 213);
+}
+button a{
+    text-decoration:none;
+    color:  rgb(5, 5, 5);
+   font-weight: bolder;
+}
